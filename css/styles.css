@@ -929,3 +929,9 @@ iframe {
 .contact-solials-img {
   filter: invert(46%) sepia(20%) saturate(5534%) hue-rotate(189deg) brightness(100%) contrast(96%);
 }
+
+/* Footer */
+.footer {
+  background-color: #252B42;
+  padding: 160px 401px 150px 393px;
+}
