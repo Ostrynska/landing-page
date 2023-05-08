@@ -61,7 +61,6 @@ body {
 .header-container {
   width: 100%;
   max-width: 1440px;
-  /* max-height: 156px; */
   margin: 0 auto;
   display: flex;
   align-items: center; 
@@ -119,7 +118,7 @@ body {
 .hero-container {
   width: 100%;
   max-width: 1440px;
-  height: 765px;
+  height: 776px;
   margin: 0 auto;
   padding-top: 110px;
   padding-bottom: 243px;
@@ -172,4 +171,36 @@ body {
   letter-spacing: 0.2px;
 
   color: #FFFFFF;
+}
+
+/* Features */
+.features-section {
+  padding-top: 205px;
+  padding-bottom: 132px;
+}
+.features-title {
+  margin-bottom: 27px;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.15;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #252B42;
+}
+.features-text {
+}
+.features-list {
+}
+.list {
+}
+.features-item {
+}
+.features-item-img {
+}
+.features-item-title {
+}
+.features-item-text {
 }
