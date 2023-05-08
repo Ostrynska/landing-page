@@ -303,185 +303,271 @@
           <button type="button" class="partners-button">Try for Free</button>
         </div>
       </section>
-      <section>
-        <h2>Testimonials</h2>
-        <img src="./images/ibm-logo.svg" alt="IBM logo" width="150" height="60" />
-        <p>
-          Most calendars are designed for teams. Slate is designed for freelancers who want a simple
-          way to plan their schedule.
-        </p>
-        <img src="./images/user-avatar.jpg" alt="User avatar" width="50" height="50" />
-        <p>Organize across</p>
-        <p>Ui designer</p>
-        <button type="button">More Testimonials</button>
-      </section>
-      <section>
-        <h2>Pricing</h2>
-        <h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
-        <ul>
-          <li>
-            <h4>Free</h4>
-            <p>Organize across all apps by hand</p>
-            <div>
-              <span>0</span>
-              <span>$</span>
-              <p>Per Month</p>
+      <section class="testimonials-section">
+        <div class="testimonials-container">
+          <h2 class="testimonials-title">Testimonials</h2>
+          <img
+            src="./images/ibm-logo.svg"
+            alt="IBM logo"
+            width="150"
+            height="60"
+            class="testimonials-img-logo"
+          />
+          <p class="testimonials-text">
+            Most calendars are designed for teams. Slate is designed for freelancers who want a
+            simple way to plan their schedule.
+          </p>
+          <div class="testimonials-wrap">
+            <img src="./images/user-avatar.jpg" alt="User avatar" width="50" height="50" />
+            <div class="testimonials-wrap-inf">
+              <p class="testimonials-wrap-title">Organize across</p>
+              <p class="testimonials-wrap-posititon">Ui designer</p>
             </div>
-            <ul>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h4>Standart</h4>
-            <p>Organize across all apps by hand</p>
-            <div>
-              <span>10</span>
-              <span>$</span>
-              <p>Per Month</p>
-            </div>
-            <ul>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h4>Business</h4>
-            <p>Organize across all apps by hand</p>
-            <div>
-              <span>99</span>
-              <span>$</span>
-              <p>Per Month</p>
-            </div>
-            <ul>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-              <li>Pricing Feature</li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Contact Us</h2>
-        <h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
-        <div>
-          <p><strong>Contact Us</strong></p>
-          <form>
-            <input type="text" placeholder="Your Name" />
-            <input type="text" placeholder="Your Email" />
-            <input type="text" placeholder="Your Message" />
-          </form>
-          <button type="button">Send</button>
+          </div>
+
+          <button type="button" class="testimonials-button button">More Testimonials</button>
         </div>
-        <ul>
-          <li>
-            <a href="https://www.google.com/maps/">
-              <img src="./images/location.svg" alt="Location" width="26" height="32" />
-              <address>6386 Spring St undefined Anchorage, Georgia 12473 United States</address>
-            </a>
-          </li>
-          <li>
-            <a href="tel:8435550130">
-              <img src="./images//tel.svg" alt="Telephone" width="20" height="32" />(843)555-0130</a
-            >
-          </li>
-          <li>
-            <a href="mailto:willie.jennings@example.com">
-              <img
-                src="./images//email.svg"
-                alt="Email"
-                width="26"
-                height="20"
-              />willie.jennings@example.com</a
-            >
-          </li>
-        </ul>
-        <img src="./images//map-screen.png" alt="Map screen" width="516" height="323" />
-        <ul>
-          <li>
-            <a href="https://twitter.com/" target="_blank">
-              <img src="./images/socials/twitter.svg" alt="Twitter logo" width="33" height="27" />
-            </a>
-          </li>
-          <li>
-            <a href="https://uk-ua.facebook.com/" target="_blank">
-              <img src="./images/socials/facebook.svg" alt="Facebook logo" width="32" height="32" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/" target="_blank">
-              <img src="./images/socials/linkedin.svg" alt="Linkedin logo" width="32" height="32" />
-            </a>
-          </li>
-        </ul>
+      </section>
+      <section class="pricing-section">
+        <div class="pricing-container container">
+          <h2 class="pricing-title">Pricing</h2>
+          <p class="pricing-text">
+            Most calendars are designed for teams. Slate is designed for freelancers
+          </p>
+          <ul class="pricing-list list">
+            <li class="pricing-item">
+              <h3 class="pricing-item-title">Free</h3>
+              <p class="pricing-item-text">Organize across all apps by hand</p>
+              <div class="pricing-wrap">
+                <span class="pricing-wrap-price">0</span>
+                <div class="pricing-wrap-inf">
+                  <p class="pricing-currency">$</p>
+                  <p class="pricing-currency-inf">Per Month</p>
+                </div>
+              </div>
+              <ul class="pricing-feature-list list">
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+              </ul>
+              <button type="button" class="pricing-button button">Order Now</button>
+            </li>
+            <li class="pricing-item pricing-item-accent">
+              <h3 class="pricing-item-title pricing-item-title-accent">Standard</h3>
+              <p class="pricing-item-text pricing-item-text-accent">
+                Organize across all apps by hand
+              </p>
+              <div class="pricing-wrap pricing-wrap-accent">
+                <span class="pricing-wrap-price pricing-wrap-price-accent">10</span>
+                <div class="pricing-wrap-inf pricing-wrap-inf-accent">
+                  <p class="pricing-currency pricing-currency-accent">$</p>
+                  <p class="pricing-currency-inf pricing-currency-inf-accent">Per Month</p>
+                </div>
+              </div>
+              <ul class="pricing-feature-list list pricing-feature-list-accent">
+                <li class="pricing-feature-item pricing-feature-item-accent">Pricing Feature</li>
+                <li class="pricing-feature-item pricing-feature-item-accent">Pricing Feature</li>
+                <li class="pricing-feature-item pricing-feature-item-accent">Pricing Feature</li>
+                <li class="pricing-feature-item pricing-feature-item-accent">Pricing Feature</li>
+                <li class="pricing-feature-item pricing-feature-item-accent">Pricing Feature</li>
+              </ul>
+              <button type="button" class="pricing-button pricing-button-accent button">
+                Order Now
+              </button>
+            </li>
+            <li class="pricing-item">
+              <h3 class="pricing-item-title">Business</h3>
+              <p class="pricing-item-text">Organize across all apps by hand</p>
+              <div class="pricing-wrap">
+                <span class="pricing-wrap-price">99</span>
+                <div class="pricing-wrap-inf">
+                  <p class="pricing-currency">$</p>
+                  <p class="pricing-currency-inf">Per Month</p>
+                </div>
+              </div>
+              <ul class="pricing-feature-list list">
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+                <li class="pricing-feature-item">Pricing Feature</li>
+              </ul>
+              <button type="button" class="pricing-button button">Order Now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="contact-container container">
+          <h2 class="contact-title">Contact Us</h2>
+          <p class="contact-text">
+            Most calendars are designed for teams. Slate is designed for freelancers
+          </p>
+          <div class="contact-wrap">
+            <div class="contact-form-wrap">
+              <p class="contact-form-title"><strong>Contact Us</strong></p>
+              <form class="contact-form">
+                <input type="text" placeholder="Your Name" class="contact-input" />
+                <input type="text" placeholder="Your Email" class="contact-input" />
+                <input type="text" placeholder="Your Message" class="contact-input-text" />
+                <button type="button" class="contact-button button">Send</button>
+              </form>
+            </div>
+            <div class="contact-information-wrap">
+              <ul class="contact-information-list list">
+                <li class="contact-information-item">
+                  <a href="https://www.google.com/maps/" class="contact-information-link link">
+                    <div class="contact-information-img">
+                      <img src="./images/location.svg" alt="Location" width="26" height="32" />
+                    </div>
+                    <address class="contact-information-text">
+                      6386 Spring St undefined Anchorage, Georgia 12473 United States
+                    </address>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:8435550130" class="contact-information-text">
+                    <div class="contact-information-img">
+                      <img src="./images//tel.svg" alt="Telephone" width="20" height="32" />
+                    </div>
+                    (843)555-0130
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:willie.jennings@example.com" class="contact-information-text">
+                    <div class="contact-information-img">
+                      <img src="./images//email.svg" alt="Email" width="26" height="20" />
+                    </div>
+                    willie.jennings@example.com
+                  </a>
+                </li>
+              </ul>
+
+              <div class="contact-map-wrap">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20318.980168045902!2d30.493478349999997!3d50.462098499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1683562054131!5m2!1suk!2sua"
+                  width="516"
+                  height="323"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="contact-map"
+                ></iframe>
+              </div>
+
+              <ul class="contact-solials-list list">
+                <li class="contact-solials-item">
+                  <a href="https://twitter.com/" target="_blank" class="contact-solials-link link">
+                    <img
+                      src="./images/socials/twitter.svg"
+                      alt="Twitter logo"
+                      width="33"
+                      height="27"
+                      class="contact-solials-img"
+                    />
+                  </a>
+                </li>
+                <li class="contact-solials-item">
+                  <a
+                    href="https://uk-ua.facebook.com/"
+                    target="_blank"
+                    class="contact-solials-link link"
+                  >
+                    <img
+                      src="./images/socials/facebook.svg"
+                      alt="Facebook logo"
+                      width="32"
+                      height="32"
+                      class="contact-solials-img"
+                    />
+                  </a>
+                </li>
+                <li class="contact-solials-item">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="contact-solials-link link"
+                  >
+                    <img
+                      src="./images/socials/linkedin.svg"
+                      alt="Linkedin logo"
+                      width="32"
+                      height="32"
+                      class="contact-solials-img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <h2>Pages</h2>
-      <nav>
-        <ul>
-          <li>
-            <a> Home </a>
-          </li>
-          <li>
-            <a> Product </a>
-          </li>
-          <li>
-            <a> Pricing </a>
-          </li>
-          <li>
-            <a> About </a>
-          </li>
-          <li>
-            <a> Contact </a>
-          </li>
-        </ul>
-      </nav>
-      <h2>Tomothy</h2>
+    <footer class="footer">
+      <h2 class="footer-title">Pages</h2>
       <ul>
         <li>
-          <a href="#">Eleanor Edwards</a>
+          <nav class="footer-nav">
+            <ul class="footer-list list">
+              <li class="f0oter-item">
+                <a class="footer-item-link">Home</a>
+              </li>
+              <li>
+                <a>Product</a>
+              </li>
+              <li>
+                <a>Pricing</a>
+              </li>
+              <li>
+                <a>About</a>
+              </li>
+              <li>
+                <a> Contact </a>
+              </li>
+            </ul>
+          </nav>
         </li>
         <li>
-          <a href="#">Ted Robertson</a>
+          <h2>Tomothy</h2>
+          <ul>
+            <li>
+              <a href="#">Eleanor Edwards</a>
+            </li>
+            <li>
+              <a href="#">Ted Robertson</a>
+            </li>
+            <li>
+              <a href="#">Annette Russell</a>
+            </li>
+            <li>
+              <a href="#">Jennie Mckinney</a>
+            </li>
+            <li>
+              <a href="#">Gloria Richards</a>
+            </li>
+          </ul>
         </li>
         <li>
-          <a href="#">Annette Russell</a>
-        </li>
-        <li>
-          <a href="#">Jennie Mckinney</a>
-        </li>
-        <li>
-          <a href="#">Gloria Richards</a>
-        </li>
-      </ul>
-      <h2>Jane Black</h2>
-      <ul>
-        <li>
-          <a href="#">Philip Jones</a>
-        </li>
-        <li>
-          <a href="#">Product</a>
-        </li>
-        <li>
-          <a href="#">Colleen Russell</a>
-        </li>
-        <li>
-          <a href="#">Marvin Hawkins</a>
-        </li>
-        <li>
-          <a href="#">Bruce Simmmons</a>
+          <h2>Jane Black</h2>
+          <ul>
+            <li>
+              <a href="#">Philip Jones</a>
+            </li>
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Colleen Russell</a>
+            </li>
+            <li>
+              <a href="#">Marvin Hawkins</a>
+            </li>
+            <li>
+              <a href="#">Bruce Simmmons</a>
+            </li>
+          </ul>
         </li>
       </ul>
       <ul>
