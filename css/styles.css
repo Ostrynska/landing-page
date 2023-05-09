@@ -309,7 +309,6 @@ iframe {
   letter-spacing: 0.2px;
   color: #252B42;
 }
-
 .aboutus-text {
   margin-bottom: 70px;
   max-width: 532px;
@@ -900,12 +899,10 @@ iframe {
   letter-spacing: 0.1px;
   color: #374754;
 }
-
 .contact-information-wrap {
   display: flex;
   flex-direction: column;
 }
-
 .contact-wrap {
   display: flex;
 }
@@ -922,7 +919,7 @@ iframe {
 .contact-solials-list {
   margin-top: 77px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   gap: 33px;
 }
@@ -933,5 +930,70 @@ iframe {
 /* Footer */
 .footer {
   background-color: #252B42;
-  padding: 160px 401px 150px 393px;
+  padding: 160px 320px 150px 320px;
+  display: flex;
+}
+.footer-nav-wrap {
+  display: flex;
+  gap: 90px;
+}
+.footer-title {
+  margin-bottom: 25px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+.footer-item-link {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.87;
+
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.footer-socials-wrap {
+  margin-left: 188px;
+}
+.footer-socials-item-wrap{
+  display: flex;
+  align-items: center;
+}
+.footer-socials-item {
+  margin-bottom: 21px;
+  display: flex;
+}
+.footer-socials-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.footer-socials-img {
+  display: inline;
+  margin-right: 16px;
+}
+.footer-socials-text{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.footer-socials-web-list {
+  display: flex;
+  gap: 34.5px;
+  margin-top: 45px;
+  align-items: center;
 }
