@@ -39,6 +39,8 @@ address {
   font-family: inherit;
   padding: 0;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
@@ -64,7 +66,6 @@ header::before, .hero::before {
   background-size: cover;
   z-index: -1;
 }
-
 .header-container {
   width: 100%;
   max-width: 1440px;
@@ -78,11 +79,9 @@ header::before, .hero::before {
   padding-right: 44.5px;
   padding-top: 49px;
 }
-
 .header-nav {
   display: flex;
 }
-
 .header-list {
   display: flex;
   align-items: center;
@@ -96,6 +95,7 @@ header::before, .hero::before {
 }
 .header-link {
   color: #FFFFFF;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover {
   color: #2091F9;
@@ -103,18 +103,18 @@ header::before, .hero::before {
 .header-logo {
   margin-left: 195.5px;
 }
-
 .header-socials {
   display: flex;
   gap: 30px;
   margin-left: auto;
   align-items: center;
 }
-
+.header-socials-link {
+  transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .header-socials-link:hover {
   filter: invert(46%) sepia(20%) saturate(5534%) hue-rotate(189deg) brightness(100%) contrast(96%);
 }
-
 
 /* Hero */
 .hero-section {
@@ -334,6 +334,7 @@ iframe {
   letter-spacing: 0.1px;
   color: #FFFFFF;
 }
+
 /* Subscribe */
 .subscribe-section {
   padding-top: 156px;
@@ -400,6 +401,9 @@ iframe {
   background: #F4F4F4;
   border: 1px solid #E8E8E8;
   border-radius: 39px;
+
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-input:hover,
 .subscribe-input:focus {
@@ -467,6 +471,7 @@ iframe {
 .partners-item-wrap {
   padding: 31px 40px;
   border: 1px solid #D8D8D8;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .partners-item-wrap:hover {
   border: 1px solid #2091F9;
@@ -566,8 +571,8 @@ iframe {
 }
 
 .testimonials-wrap-inf {
- margin-left: 13px;
- text-align: start;
+  margin-left: 13px;
+  text-align: start;
 }
 .testimonials-wrap-title {
   margin-bottom: 2px;
@@ -713,7 +718,6 @@ iframe {
   letter-spacing: 0.2px;
   color: #252B42;
 }
-
 .pricing-button {
   width: 255px;
   height: 56px;
@@ -728,7 +732,6 @@ iframe {
   letter-spacing: 0.2px;
   color: #FFFFFF;
 }
-
 .pricing-item-accent {
   width: 335px;
   height: 693px;
@@ -847,6 +850,9 @@ iframe {
 
   letter-spacing: 0.1px;
   color: #18171D;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-input:hover,
 .contact-input:focus {
@@ -869,8 +875,11 @@ iframe {
 
   letter-spacing: 0.1px;
   color: #18171D;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-inpu-text:hover,
+.contact-input-text:hover,
 .contact-input-text:focus {
   border: 1px solid #2091F9;
   background: #FFFFFF;
@@ -912,6 +921,8 @@ iframe {
   text-align: center;
   letter-spacing: 0.1px;
   color: #374754;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-information-text:hover {
   color: #2091F9;
@@ -939,6 +950,9 @@ iframe {
   align-items: center;
   justify-content: flex-start;
   gap: 33px;
+}
+.contact-solials-item {
+  transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-solials-item:hover {
   filter: invert(52%) sepia(17%) saturate(16%) hue-rotate(12deg) brightness(93%) contrast(84%);
@@ -978,6 +992,8 @@ iframe {
 
   letter-spacing: 0.2px;
   color: #FFFFFF;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-item-link:hover {
   color: #2091F9;
@@ -992,6 +1008,8 @@ iframe {
 .footer-socials-item {
   margin-bottom: 21px;
   display: flex;
+
+  transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials-link {
   font-weight: 400;
@@ -1022,6 +1040,9 @@ iframe {
   gap: 34.5px;
   margin-top: 45px;
   align-items: center;
+}
+.footer-socials-web-item{
+  transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials-web-item:hover {
   filter: invert(46%) sepia(20%) saturate(5534%) hue-rotate(189deg) brightness(100%) contrast(96%);
